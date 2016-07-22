@@ -1,0 +1,6 @@
+#container {
+    max-width: 960px;
+    margin: auto;
+    padding: 30px 0;
+    background-color: gray; /* to be removed */
+}
