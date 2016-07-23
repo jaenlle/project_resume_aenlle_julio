@@ -76,8 +76,8 @@ img.headshot {
     width: 200px;
     float: left;
     margin-bottom: 20px;
-    -webkit-box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    /*-webkit-box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);*/
 }
 
 .name {
@@ -95,11 +95,14 @@ img.headshot {
     }
 
     .name {
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
+        padding-left: 0;
     }
 
     .contacticons {
-        padding-left: 15px;
+        padding-left: 18px;
     }
 }
 
@@ -118,20 +121,21 @@ nav li {
     clear: both;
 }
 
-.logo {
+img.logo {
     width: 125px;
     float: left;
 }
 
 .heading {
     float: left;
-    margin:0 0 25px 30px;
+    margin: 0 0 25px 30px;
     padding: 18px 0;
 }
 
 .heading h2,
 .heading h3,
 .heading h4 {
+    text-align: justify;;
 }
 
 .heading h2 {
@@ -147,11 +151,22 @@ nav li {
 }
 
 @media all and (max-width: 550px) {
-    .logo {
+
+    main {
+        padding: 0 15px;
+    }
+
+    img.logo {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .heading {
+        margin-left: 0;
+    }
+
+
 }
 
 .description {
