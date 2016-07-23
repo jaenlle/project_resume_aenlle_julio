@@ -3,17 +3,31 @@
 #container {
     max-width: 720px;
     margin: auto;
-    padding: 30px 0;
-    background-color: gray; /* to be removed */
+    padding: 30px 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: 'Fjalla One', sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1.8px;
 }
 
 p {
     font-family: 'Average', serif;
+    text-align: justify;
+    letter-spacing: 1.2px;
+    color: gray;
+}
+
+img {
+    width: 200px;
 }
