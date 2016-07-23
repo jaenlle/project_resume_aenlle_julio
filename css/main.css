@@ -1,6 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Average|Fjalla+One';
+
 #container {
-    max-width: 960px;
+    max-width: 720px;
     margin: auto;
     padding: 30px 0;
     background-color: gray; /* to be removed */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Average', serif;
 }
