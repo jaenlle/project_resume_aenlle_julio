@@ -1,16 +1,17 @@
 @import 'https://fonts.googleapis.com/css?family=Average|Fjalla+One';
 
 body {
-    background-color: gray;
+    background-color: white;
 }
 
 #container {
-    max-width: 720px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 30px 10px;
-    background-color: rgba(255, 255, 255, 0.8);;
+    max-width: 680px;
+    margin: 30px auto;
+    padding: 30px 0;
+
+    /* background-color: rgba(255, 255, 255, 0.8); */
+
+    /* add padding in the min-width for the content later */
 }
 
 h1,
@@ -32,9 +33,56 @@ p {
     font-family: 'Average', serif;
     text-align: justify;
     letter-spacing: 1.2px;
-    color: gray;
+    color: #a6a6a6;
 }
 
-img {
+/* ----------------------------------------------------------- header */
+
+header {
+    padding: 10px 0;
+}
+
+img.contact {
+    height: 55px;
+    margin: 0 20px 0 0;
+}
+
+img.headshot {
     width: 200px;
+    float: left;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 6px 6px 6px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    float: left;
+    padding-left: 35px;
+}
+
+@media all and (max-width: 550px) {
+    img.headshot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .contacticons {
+        padding-left: 15px;
+    }
+}
+
+nav {
+    clear: both;
+    background-color: orange;
+}
+
+nav li {
+    display: block;
 }
