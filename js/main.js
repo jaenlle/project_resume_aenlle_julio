@@ -18,4 +18,10 @@ $(document).ready(function () {
     }, function () {
         $(this).attr('src', 'img/contact/linkedin.png');
     });
+
+    $('.rotate').textrotator({
+        animation: 'spin',
+        separator: ',',
+        speed: 2000
+    });
 });
