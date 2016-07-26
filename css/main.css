@@ -13,10 +13,12 @@ body {
     max-width: 680px;
     margin: 30px auto;
     padding: 30px 0;
+}
 
-    /* background-color: rgba(255, 255, 255, 0.8); */
-
-    /* add padding in the min-width for the content later */
+@media all and (max-width: 550px) {
+    #container {
+        margin: 0 auto;
+    }
 }
 
 h1,
@@ -121,6 +123,7 @@ nav li {
 
 .content {
     clear: both;
+    padding: 15px 0;
 }
 
 img.logo {
@@ -132,12 +135,6 @@ img.logo {
     float: left;
     margin: 0 0 25px 30px;
     padding: 18px 0;
-}
-
-.heading h2,
-.heading h3,
-.heading h4 {
-    text-align: justify;;
 }
 
 .heading h2 {
@@ -178,15 +175,42 @@ img.logo {
 
 /* --------------------------------------------------- skills */
 
+.skills h2 {
+    color: #a6a6a6;
+}
 .skills img {
     width: 65px;
 }
 
 .skills ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .skills ul li {
     display: inline-block;
     margin: 10px;
+}
+
+/* --------------------------------------------------- affiliations */
+
+.affiliations ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.affiliations li {
+    margin-bottom: 1em;
+}
+
+.affiliations a {
+    text-decoration: none;
+    color: #a6a6a6;
+    letter-spacing: 1.2px;
+    font-size: 1.4em;
+}
+
+.affiliations a:hover {
+    color: #fcaf17;
+    border-bottom: 2px solid #a6a6a6;
 }
