@@ -76,13 +76,14 @@ img.headshot {
     width: 200px;
     float: left;
     margin-bottom: 20px;
-    webkit-box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    border: 3px solid #fcaf17;
 }
 
 .name {
     float: left;
     padding-left: 30px;
+    margin-top: 10px;
 }
 
 @media all and (max-width: 550px) {
