@@ -19,9 +19,13 @@ $(document).ready(function () {
         $(this).attr('src', 'img/contact/linkedin.png');
     });
 
+    //jQuery plugin #1 is a simple textrotator I applied to the h2 in the header. It cycles through the different job titles I have or may hold in the future.
     $('.rotate').textrotator({
         animation: 'spin',
         separator: ',',
         speed: 2000
     });
+
+    //jQuery plugin #2 is a simple textrotator I applied to the h2 in the header. It cycles through the different job titles I have or may hold in the future.
+    $('.h1').lettering();
 });

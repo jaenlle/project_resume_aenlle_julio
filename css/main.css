@@ -34,7 +34,7 @@ h1,
 h2,
 h3,
 h4 {
-    letter-spacing: 2.4px;
+    letter-spacing: 1.4px;
 }
 
 h1,
@@ -54,6 +54,12 @@ p {
     color: #a6a6a6;
 }
 
+/* This is the character styling for jQuery plugin #2set the font */
+
+.char1 {
+    font-size: 2.6rem;
+}
+
 /* --------------------------------------------------- header */
 
 header {
@@ -61,6 +67,8 @@ header {
 }
 
 header h1 {
+    font-size: 2.8em;
+    margin-top: 18px;
     margin-bottom: 10px;
 }
 
