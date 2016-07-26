@@ -174,3 +174,18 @@ img.logo {
     clear: both;
     padding-bottom: 20px;
 }
+
+/* --------------------------------------------------- skills */
+
+.skills img {
+    width: 65px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 10px;
+}
