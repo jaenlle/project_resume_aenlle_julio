@@ -214,3 +214,39 @@ img.logo {
     color: #fcaf17;
     border-bottom: 2px solid #a6a6a6;
 }
+
+/* --------------------------------------------------- footer */
+
+footer {
+    margin-top: 40px;
+    border-top: 2px solid #fcaf17;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer h1,
+footer h2 {
+    margin: 0 0 10px 0;
+}
+
+footer h1 {
+    font-size: 1.6em;
+}
+
+footer h2 {
+    font-size: 1.3em;
+    color: #a6a6a6;
+}
+
+footer img {
+    height: 45px;
+}
+
+img.contactfoot {
+    height: 40px;
+    margin: 0 20px 0 0;
+}
+
+img.contactfoot.github {
+    margin-right: 20px;
+}
