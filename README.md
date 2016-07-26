@@ -18,6 +18,11 @@
 * [jQuery attr() Method](http://www.w3schools.com/jquery/html_attr.asp)
 	- Used to learn more about the jQuery .attr() method. 
 
+* [jQuery Super Simple Text Rotator](http://www.thepetedesign.com/demos/jquery_super_simple_text_rotator_demo.html)
+
+	- This is the first plugin I used in this project. The effect is located in the header and it changes my title. 
+	
+
 ###Nav
 
 ##Comments
