@@ -26,6 +26,6 @@ $(document).ready(function () {
         speed: 2000
     });
 
-    //jQuery plugin #2 is the Lettering.js plugin that was included in the jQuery plugin. I used it to single out the first letter of the main body h1 tags and then used CSS to make those invidual letters bigger compared to the rest of the header.
+    //jQuery plugin #2 is the Lettering.js plugin that was included in the Week 11 module. I used it to single out the first letter of the main content h1 tags and then used CSS to make those invidual letters bigger compared to the rest of the header.
     $('.h1').lettering();
 });
