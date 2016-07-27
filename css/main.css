@@ -54,7 +54,7 @@ p {
     color: #a6a6a6;
 }
 
-/* This is the character styling for jQuery plugin #2set the font */
+/* This is the character styling for jQuery plugin #2. It sets the font size. */
 
 .char1 {
     font-size: 2.6rem;
@@ -68,12 +68,13 @@ header {
 
 header h1 {
     font-size: 2.8em;
-    margin-top: 18px;
+    margin-top: 8px;
     margin-bottom: 10px;
 }
 
-header h2 {
-    margin: 10px 0 25px;
+header h2,
+header h3 {
+    margin: 10px 0;
     color: #a6a6a6;
 }
 
@@ -172,8 +173,6 @@ img.logo {
     .heading {
         margin-left: 0;
     }
-
-
 }
 
 .description {
@@ -234,12 +233,9 @@ footer {
 }
 
 footer h1,
-footer h2 {
+footer h2,
+footer h3 {
     margin: 0 0 10px 0;
-}
-
-footer h1 {
-    font-size: 1.6em;
 }
 
 footer h2 {
